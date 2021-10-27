@@ -1,0 +1,48 @@
+.window {
+    display:grid;
+    justify-content: center;
+    align-content: center;
+    border: solid;
+    border-color: grey;
+    grid-gap: 10px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container {
+    
+    border-style: solid;
+    border-color: black;
+
+    display: grid;
+    width: 960px;
+    height: 960px;
+    
+    
+}
+
+.box {
+    border-color: rgb(146, 146, 146);
+    border-style: solid;
+    border-width: 1px;
+    
+    
+}
+
+.color {
+    background-color: blue;
+}
+
+.menu button {
+    width: 150px;
+    color: white;
+    background-color: rgb(142, 142, 155);
+    border-style: none;
+    height: 50px;
+    border-radius: 1rem;
+    
+}
